@@ -1,0 +1,176 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+}
+
+.cabecalho {
+    display: block;
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 100;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.178);
+    margin-bottom: 1em;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #00a8ff;
+    color: #fff;
+}
+
+.nav-link {
+    color: #d87309;
+}
+
+.anchor {
+    scroll-margin-top: 15vh;
+}
+
+
+.chamada {
+    display: grid;
+    grid-template-columns: repeat(2, 49%);
+    padding-top: 1em;
+    width: 100%;
+    column-gap: 2%;
+    height: 50vh;
+}
+
+.text h2 {
+    color: #00b755;
+    padding: 2em;
+}
+
+.chamada p {
+    font-size: 20px;
+}
+
+.carousel-inner h2 {
+    font-size: 24px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.cartoes {
+    height: 50vh;
+    width: 80%;
+    margin: 2em auto;
+}
+
+.cartoes .row {
+    margin-top: 3em;
+    width: 100%;
+}
+
+.card-body {
+    padding: 0;
+    border-bottom: none;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.card img {
+    width: 250px;
+    height: 170px;
+}
+
+.card-footer {
+    display: flex;
+    width: 250px;
+    padding: 0;
+    margin: 0 auto 1em;
+    justify-content: center;
+    background-color: white;
+    border-top: none;
+}
+
+
+.card-footer button, .conteudo button {
+    background-color: #00a8ff;
+    color: #fff;
+    border-color: #fff;
+    display: flex;
+    margin: 1em auto 0;
+    width: 200px;
+    justify-content: center;
+}
+
+.card-footer button:hover, .conteudo button:hover {
+    color: #fff;
+    background-color: #00b755;
+    border: #fff;
+}
+
+.conteudo ul {
+    width: 100%;
+    padding-left: 0;
+    list-style: none;
+}
+
+.conteudo li {
+    display: grid;
+    grid-template-columns: repeat(2, 49%);
+    width: 100%;
+    column-gap: 2%;
+    justify-content: space-between;
+}
+
+.conteudo img {
+    object-fit: fill;
+}
+
+#sobre, #passeio, #roteiro {
+    height: 100vh;
+}
+
+#sobre, #roteiro {
+    text-align: right;
+}
+
+.conteudo button {
+    margin-top: 3em;
+}
+
+.conteudo h3 {
+    color: #00b755;
+}
+
+.conteudo p {
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 2em;
+}
+
+.btn {
+    display: flex;
+    margin: 3em auto 0;
+    width: 200px;
+    justify-content: center;
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+footer:hover, footer a:hover {
+    color: #d87309;
+    cursor: pointer;
+}
+
+
+
