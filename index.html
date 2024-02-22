@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>BANZAI Turismo</title>
     <link rel="stylesheet" href="lib/bootstrap.min.css">
     <link rel="stylesheet" href="main.css">
@@ -14,7 +14,7 @@
     <header class="cabecalho">
         <nav class="navbar navbar-expand-lg">
             <div class="container">
-                <img src="./img/banzai-logo.png" alt="Banzai Logotipo">
+                <a href="#" class="navbar-brand"><img src="./img/banzai-logo.png" alt="Banzai Logotipo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -37,12 +37,12 @@
             </div>
         </nav>
     </header>
-    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
-        <div class="container">
+    <div class="container">
+        <div data-bs-spy="scroll" data-bs-target="#cabecalho">
             <div class="chamada anchor" id="inicio">
                 <div class="text">
                     <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis iste porro accusantium beatae, recusandae nulla nesciunt.</p>
+                    <p class="p1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis iste porro accusantium beatae, recusandae nulla nesciunt.</p>
                 </div>
                 <div class="carousel d-0">
                     <div id="idCarousel" class="carousel carousel-fade slide" data-bs-ride="carousel">
@@ -79,6 +79,9 @@
                         </div>
                     </div>
                 </div>
+                <div class="text">
+                    <p class="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis iste porro accusantium beatae, recusandae nulla nesciunt.</p>
+                </div>
             </div>
             <div class="cartoes">
                 <div class="row">
@@ -112,43 +115,49 @@
                         </div>
                     </article>
                 </div>
-            </div>
+                </div>
             </div>
             <div class="conteudo">
                 <ul>
                     <li>
                         <div class="conteudo-texto anchor" id="sobre">
                             <h3>Sobre a guia</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, optio! Porro doloribus quam laudantium quibusdam, id optio enim, laboriosam numquam nisi natus nihil tempora, consectetur sequi atque ipsam libero aspernatur?
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, optio! Porro doloribus quam laudantium quibusdam, id optio enim, laboriosam numquam nisi natus nihil tempora, consectetur sequi atque ipsam libero aspernatur?
-                            </p>
+                            <div class="conteudo-img imgMob">
+                                <img src="./img/sobre.png" alt="">
+                            </div>
+                            <p class="pDesk">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione iste alias sequi in fugiat animi id quasi odio quam! Labore numquam repellat ipsum eos eaque asperiores doloremque natus autem quo. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere cupiditate deleniti aspernatur cum repellat veniam et corporis autem modi tenetur. Iusto, ullam est esse fuga autem non aliquid doloribus magnam.</p>
+                            <p class="pMob">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, optio! Porro doloribus quam</p>
                             <button type="button" class="btn btn-secondary">Ver mais</button>
                         </div>
-                        <div class="conteudo-img">
+                        <div class="conteudo-img imgDesk">
                             <img src="./img/sobre.png" alt="">
                         </div>
                     </li>
                     <li>
-                        <div class="conteudo-img">
+                        <div class="conteudo-img imgDesk">
                             <img src="./img/passeio.png" alt="">
                         </div>
                         <div class="conteudo-texto anchor" id="passeio">
                             <h3>Passeios e atividades</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, optio! Porro doloribus quam laudantium quibusdam, id optio enim, laboriosam numquam nisi natus nihil tempora, consectetur sequi atque ipsam libero aspernatur?
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, optio! Porro doloribus quam laudantium quibusdam, id optio enim, laboriosam numquam nisi natus nihil tempora, consectetur sequi atque ipsam libero aspernatur?
-                            </p>
+                            <div class="conteudo-img imgMob">
+                                <img src="./img/passeio.png" alt="">
+                            </div>
+                            <p class="pDesk">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi odio porro placeat quam rem, perferendis blanditiis mollitia a expedita, at libero ipsa exercitationem voluptatibus quaerat saepe illum eaque? Illo, quas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt consequatur hic, provident eveniet maiores at quod quae quibusdam nesciunt possimus fuga quia aut necessitatibus, aliquid modi quaerat, aspernatur nobis qui.</p>
+                            <p class="pMob">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, optio! Porro doloribus quam</p>
                             <button type="button" class="btn btn-secondary">Ver mais</button>
                         </div>
                     </li>
                     <li>
                         <div class="conteudo-texto anchor" id="roteiro">
                             <h3>Roteiros personalizados</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, optio! Porro doloribus quam laudantium quibusdam, id optio enim, laboriosam numquam nisi natus nihil tempora, consectetur sequi atque ipsam libero aspernatur?
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, optio! Porro doloribus quam laudantium quibusdam, id optio enim, laboriosam numquam nisi natus nihil tempora, consectetur sequi atque ipsam libero aspernatur?
-                                <button type="button" class="btn btn-secondary">Ver mais</button>   
-                            </p>
+                            <div class="conteudo-img imgMob">
+                                <img src="./img/personalizado.png" alt="">
+                            </div>
+                            <p class="pDesk">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut adipisci quo sunt suscipit harum cumque exercitationem facilis aspernatur maxime, officia corporis at deserunt aperiam minima reprehenderit et nostrum temporibus accusamus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, quaerat voluptas sapiente velit repellendus porro eligendi a dicta, pariatur facere recusandae mollitia. Beatae illo magni dignissimos, exercitationem deleniti minus praesentium!</p>
+                            <p class="pMob">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, optio! Porro doloribus quam</p>
+                            <button type="button" class="btn btn-secondary">Ver mais</button>
                         </div>
-                        <div class="conteudo-img">
+                        <div class="conteudo-img imgDesk">
                             <img src="./img/personalizado.png" alt="">
                         </div>
                     </li>
