@@ -332,5 +332,62 @@ footer:hover, footer a:hover {
     }
 }
 
+@media screen and (min-width: 377px) and (max-width: 769px) {
+    .container {
+        max-width: 	768px;
+    }
+
+    .chamada {
+        height: 100%;
+        margin-bottom: 2em;
+    }
+
+    
+    .btn-secondary {
+        --bs-btn-active-bg: #006830;
+    }
+
+
+    .p1 {
+        display: none;
+    }
+
+    .text {
+        margin: 0 auto;
+    }
+
+    .p2 {
+        display: block;
+        width: 50%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .col-4 {
+        width: 49%;
+    }
+
+    .cartoes .row {
+        justify-content: space-evenly;
+    }
+
+    .row {
+        row-gap: 1.5em;
+    }
+
+    .conteudo li {
+        margin-bottom: 6em;
+    }
+
+    .imgDesk img {
+        width: 365px;
+        height: 330px;
+    }
+
+    #sobre, #roteiro, #passeio {
+        height: 330px;
+    }
+}
+
 
 
