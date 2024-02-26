@@ -295,6 +295,11 @@ footer:hover, footer a:hover {
         width: 100%;
     }
 
+    
+    #sobre, #passeio, #roteiro {
+        height: 90vh;
+    }
+
     .conteudo li {
         display: block;
     }
